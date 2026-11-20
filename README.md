@@ -72,7 +72,7 @@
 ## 🆕 仓库列表（自动同步）
 
 > 由 GitHub Actions 按创建时间倒序自动生成，每周更新一次；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
-> 最后更新：2026-11-20 07:45 UTC
+> 最后更新：2026-11-20 11:01 UTC
 
 - [disk-cleanup](https://github.com/zseagate/disk-cleanup) 🆕 — Weekly cache cleanup + optional cache offload for small /home partitions · 2026-11-20
 - [usb-bench](https://github.com/zseagate/usb-bench) 🆕 — USB drive benchmark for portable Linux boot drives: batch testing, fio-based, JSON/Markdown reports, OpenCode skill · 2026-11-03
