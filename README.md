@@ -71,7 +71,7 @@
 <!-- AUTO-SYNC:START -->
 ## 🆕 仓库列表（自动同步）
 
-> 由 GitHub Actions 按创建时间倒序自动生成，每 24 小时更新；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
+> 由 GitHub Actions 按创建时间倒序自动生成，每周更新一次；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
 > 最后更新：2026-11-20 07:45 UTC
 
 - [disk-cleanup](https://github.com/zseagate/disk-cleanup) 🆕 — Weekly cache cleanup + optional cache offload for small /home partitions · 2026-11-20
