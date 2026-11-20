@@ -1,0 +1,30 @@
+name: Sync repo list to profile README
+on:
+  schedule:
+    - cron: "0 0 * * 1"      # 每周一 00:00 UTC（北京周一 08:00）
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: sync-repos
+  cancel-in-progress: true
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/sync_repos.py
+      - name: Commit and push
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: 自动同步仓库列表"
+            git push
+          else
+            echo "No changes"
+          fi
