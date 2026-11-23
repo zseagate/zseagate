@@ -72,9 +72,12 @@
 ## 🆕 仓库列表（自动同步）
 
 > 由 GitHub Actions 按创建时间倒序自动生成，每周更新一次；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
-> 最后更新：2026-11-20 11:01 UTC
+> 最后更新：2026-11-23 04:30 UTC
 
+- [iptv-tvbox-lowend-android](https://github.com/zseagate/iptv-tvbox-lowend-android) 🆕 · 2026-11-22
+- [free-api-gateway](https://github.com/zseagate/free-api-gateway) 🆕 — Local new-api gateway aggregating Numes/OpenRouter/Groq free tiers for OpenCode · 2026-11-21
 - [disk-cleanup](https://github.com/zseagate/disk-cleanup) 🆕 — Weekly cache cleanup + optional cache offload for small /home partitions · 2026-11-20
+- [free-api-config](https://github.com/zseagate/free-api-config) 🆕 · 2026-11-19
 - [usb-bench](https://github.com/zseagate/usb-bench) 🆕 — USB drive benchmark for portable Linux boot drives: batch testing, fio-based, JSON/Markdown reports, OpenCode skill · 2026-11-03
 - [unt413a-tv-optimization](https://github.com/zseagate/unt413a-tv-optimization) 🆕 — Debloat and optimize a Unionman/九联 UNT413A (Amlogic S905L3, Android 9) IPTV box: audit, scripts, CleanYourTV launcher · 2026-11-02
 - [mint-usb-portable](https://github.com/zseagate/mint-usb-portable) 🆕 — 把 Linux Mint 22.3 完整安装到 U 盘：分区、GRUB、中文输入法、OpenCode、Remmina、星火商店与踩坑记录 · 2026-11-02
@@ -82,10 +85,9 @@
 - [dsh-shell-0xC0000135-fix](https://github.com/zseagate/dsh-shell-0xC0000135-fix) 🆕 — 修复 DSH 无头 shell：pwsh 与 python 退出码 0xC0000135（STATUS_DLL_NOT_FOUND）排障全记录与 PATH 修复脚本 · 2026-10-30
 - [ai-video-lab](https://github.com/zseagate/ai-video-lab) 🆕 — 本地优先的 AI 视频生产实验室 + 开源课程工具包：剧本 → 分镜 → 配音配乐 → 合成 → 质检 的可复现流水线，自带管理台，支持十层提示词与跨镜头一致性锚点，引擎可插拔（本地 Wan / 云端 Seedance / 实拍素材）。零成本起步，低配机器可练可出片；仓库只含文档、模板与代码，不含成片、密钥与机器路径。 · 2026-10-29
 - [360t7-mesh](https://github.com/zseagate/360t7-mesh) 🆕 — 两台 360T7 组 802.11s Mesh 无线回程 + 同 SSID 无缝漫游的实战记录（含 frequency=5745.0 浮点坑）；进阶部分用 mihomo（Clash.Meta）TUN 模式做透明代理，集成 anti-AD 去广告与中文网页订阅管理，附一键部署、验收与备份脚本。 · 2026-10-27
-- [green-future-ventoy-usb](https://github.com/zseagate/green-future-ventoy-usb) 🆕 — Ventoy 启动 U 盘制作模板：架构、中文菜单与操作说明 · 2026-10-22
-- [jmgo-p2-slim](https://github.com/zseagate/jmgo-p2-slim) 🆕 — 坚果 JmGO P2 (Android 4.4.4) 投影仪精简实战：只禁用不卸载、存储审计、TVBox 直播源配置，全程可恢复 · 2026-10-22
+- [green-future-ventoy-usb](https://github.com/zseagate/green-future-ventoy-usb) — Ventoy 启动 U 盘制作模板：架构、中文菜单与操作说明 · 2026-10-22
+- [jmgo-p2-slim](https://github.com/zseagate/jmgo-p2-slim) — 坚果 JmGO P2 (Android 4.4.4) 投影仪精简实战：只禁用不卸载、存储审计、TVBox 直播源配置，全程可恢复 · 2026-10-22
 - [mint-lite](https://github.com/zseagate/mint-lite) — 中文精简 Linux Mint Xfce live ISO 构建流水线（rootless，22.3 64 位 + 19.3 32 位） · 2026-10-19
-- [hypnotix](https://github.com/zseagate/hypnotix) — Hypnotix TV setup, curated verified news playlist and libmpv playback tooling · 2026-10-11
 - [chanzhi-to-joomla](https://github.com/zseagate/chanzhi-to-joomla) — 蝉知 CMS (ZSITE 8.x) 到 Joomla 5 的迁移工具链：ETL、多栏目补副本、增量追平、模板 1:1 校验 · 2026-10-02
 - [fcitx5-custom-phrase](https://github.com/zseagate/fcitx5-custom-phrase) — 给 fcitx5 拼音 / 五笔拼音用户词库添加自定义词组的脚本（附采坑记录） · 2026-09-29
 - [linux-system-health-check](https://github.com/zseagate/linux-system-health-check) — Linux 系统状态自检脚本 · 2026-08-18
