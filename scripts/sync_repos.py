@@ -63,7 +63,7 @@ def build_block(repos):
         START,
         "## 🆕 仓库列表（自动同步）",
         "",
-        "> 由 GitHub Actions 按创建时间倒序自动生成，每周更新一次；**🆕** = "
+        "> 由 GitHub Actions 按创建时间倒序自动生成，每日更新一次；**🆕** = "
         f"{NEW_DAYS} 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。",
         f"> 最后更新：{now:%Y-%m-%d %H:%M} UTC",
         "",

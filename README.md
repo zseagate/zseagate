@@ -71,7 +71,7 @@
 <!-- AUTO-SYNC:START -->
 ## 🆕 仓库列表（自动同步）
 
-> 由 GitHub Actions 按创建时间倒序自动生成，每周更新一次；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
+> 由 GitHub Actions 按创建时间倒序自动生成，每日更新一次；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
 > 最后更新：2026-11-23 04:30 UTC
 
 - [iptv-tvbox-lowend-android](https://github.com/zseagate/iptv-tvbox-lowend-android) 🆕 · 2026-11-22
