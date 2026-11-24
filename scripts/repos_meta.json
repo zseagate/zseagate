@@ -1,0 +1,74 @@
+{
+  "new_category_title": "🆕 新仓库（待归类）",
+  "categories": [
+    {
+      "title": "🖥️ 旧物改造 / 系统精简",
+      "repos": [
+        "old-laptop-revival",
+        "mint-lite",
+        "mint-usb-portable",
+        "sys_init",
+        "jmgo-p2-slim",
+        "unt413a-tv-optimization",
+        "hypnotix",
+        "fcitx5-custom-phrase",
+        "linux-system-health-check"
+      ]
+    },
+    {
+      "title": "💾 装机与 U 盘",
+      "repos": [
+        "green-future-ventoy-usb",
+        "usb-bench"
+      ]
+    },
+    {
+      "title": "🌐 网络与路由",
+      "repos": [
+        "360t7-mesh",
+        "bookmark-sync-notes"
+      ]
+    },
+    {
+      "title": "🪟 Windows / WSL2 与工具",
+      "repos": [
+        "wls2-setup-guide-for-windows",
+        "wsl2-jupyter-installer",
+        "excel-image-cleaner",
+        "SilverFox-Scanner",
+        "python_env_trae",
+        "dsh-shell-0xC0000135-fix"
+      ]
+    },
+    {
+      "title": "🤖 AI 与网站工程",
+      "repos": [
+        "ai-video-lab",
+        "chanzhi-to-joomla"
+      ]
+    }
+  ],
+  "descriptions": {
+    "old-laptop-revival": "2009 VAIO 跑现代 Linux + AI 全记录",
+    "mint-lite": "中文精简 Mint Xfce live ISO 构建流水线",
+    "mint-usb-portable": "Linux Mint 随身 U 盘（持久化 + 中文 + 常用工具）",
+    "sys_init": "Debian 系装机后一站式初始化脚本",
+    "jmgo-p2-slim": "坚果 P2 投影仪精简：只禁用不卸载，全程可恢复",
+    "unt413a-tv-optimization": "运营商机顶盒 debloat + IPTV",
+    "hypnotix": "Hypnotix TV 配置与订阅源整理",
+    "fcitx5-custom-phrase": "fcitx5 自定义词组脚本（附踩坑）",
+    "linux-system-health-check": "Linux 系统状态自检脚本",
+    "green-future-ventoy-usb": "Ventoy 启动 U 盘模板：架构、中文菜单、校验脚本",
+    "usb-bench": "U 盘性能实测（fio）与便携 Linux 基准",
+    "360t7-mesh": "两台 360T7 组 Mesh 无线回程 + mihomo TUN 透明代理",
+    "bookmark-sync-notes": "浏览器书签双向增量合并脚本",
+    "wls2-setup-guide-for-windows": "WSL2 一站式安装管理工具箱",
+    "wsl2-jupyter-installer": "WSL2 下一键装 Jupyter 全栈",
+    "excel-image-cleaner": "DISPIMG 图片公式批量清理（Go，离线）",
+    "SilverFox-Scanner": "银狐木马跨平台排查工具",
+    "python_env_trae": "Trae IDE + JupyterLab Python 环境搭建",
+    "dsh-shell-0xC0000135-fix": "0xC0000135 DLL 加载失败排障全记录",
+    "ai-video-lab": "本地 AI 视频流水线 + 开放课程套件",
+    "chanzhi-to-joomla": "蝉知 CMS → Joomla 5 迁移工具链"
+  }
+}
