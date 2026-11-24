@@ -11,6 +11,7 @@
         "jmgo-p2-slim",
         "unt413a-tv-optimization",
         "hypnotix",
+        "iptv-tvbox-lowend-android",
         "fcitx5-custom-phrase",
         "linux-system-health-check"
       ]
@@ -19,7 +20,8 @@
       "title": "💾 装机与 U 盘",
       "repos": [
         "green-future-ventoy-usb",
-        "usb-bench"
+        "usb-bench",
+        "disk-cleanup"
       ]
     },
     {
@@ -44,7 +46,8 @@
       "title": "🤖 AI 与网站工程",
       "repos": [
         "ai-video-lab",
-        "chanzhi-to-joomla"
+        "chanzhi-to-joomla",
+        "free-api-gateway"
       ]
     }
   ],
@@ -56,6 +59,7 @@
     "jmgo-p2-slim": "坚果 P2 投影仪精简：只禁用不卸载，全程可恢复",
     "unt413a-tv-optimization": "运营商机顶盒 debloat + IPTV",
     "hypnotix": "Hypnotix TV 配置与订阅源整理",
+    "iptv-tvbox-lowend-android": "Android 4.4 老盒子 IPTV/TVBox 兼容方案：本地直播绕开旧 TLS + MacCMS 点播，含脚本与排障（不含节目源）",
     "fcitx5-custom-phrase": "fcitx5 自定义词组脚本（附踩坑）",
     "linux-system-health-check": "Linux 系统状态自检脚本",
     "green-future-ventoy-usb": "Ventoy 启动 U 盘模板：架构、中文菜单、校验脚本",
