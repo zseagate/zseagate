@@ -66,14 +66,18 @@ def fetch_repos():
     raise RuntimeError(f"failed to fetch repos after retries: {last_err}")
 
 
-def github_desc(repo):
-    """GitHub description 兜底：折叠空白、去开头分隔符、限长。"""
-    d = (repo.get("description") or "（暂无描述）").strip()
-    d = re.sub(r"\s+", " ", d)
+def clean_desc(text):
+    """折叠空白、去开头分隔符、限长。"""
+    d = re.sub(r"\s+", " ", (text or "").strip())
     d = re.sub(r"^[\s\-–—:：|]+", "", d)
     if len(d) > 100:
         d = d[:99] + "…"
     return d
+
+
+def github_desc(repo):
+    """GitHub description 兜底。"""
+    return clean_desc(repo.get("description")) or "（暂无描述）"
 
 
 def table_desc(text):
@@ -81,7 +85,7 @@ def table_desc(text):
     return re.sub(r"(?<!\\)\|", "\\|", (text or "").strip())
 
 
-def build_block(repos):
+def build_block(repos, descriptions=None):
     now = datetime.datetime.now(datetime.timezone.utc)
     lines = [
         START,
@@ -100,7 +104,11 @@ def build_block(repos):
         created = created_raw[:10]
         created_dt = datetime.datetime.fromisoformat(created_raw.replace("Z", "+00:00"))
         badge = " 🆕" if (now - created_dt).days <= NEW_DAYS else ""
-        desc = github_desc(repo)
+        # GitHub 描述为空时，用元数据里的中文精炼说明兜底
+        raw = repo.get("description") or ""
+        if not raw.strip() and descriptions:
+            raw = descriptions.get(name, "")
+        desc = clean_desc(raw) or "（暂无描述）"
         suffix = f" — {desc}" if desc else ""
         lines.append(f"- [{name}](https://github.com/{OWNER}/{name}){badge}{suffix} · {created}")
     lines += ["", END]
@@ -165,13 +173,15 @@ def main():
     repos = fetch_repos()
     readme = README.read_text(encoding="utf-8") if README.exists() else ""
 
-    updated = replace_marker(readme, START, END, build_block(repos))
-
+    meta = {}
     if META.exists():
         meta = json.loads(META.read_text(encoding="utf-8"))
-        updated = replace_marker(updated, INDEX_START, INDEX_END, build_index_block(repos, meta))
     else:
         print("repos_meta.json missing; index block left unchanged", file=sys.stderr)
+
+    updated = replace_marker(readme, START, END, build_block(repos, meta.get("descriptions")))
+    if meta:
+        updated = replace_marker(updated, INDEX_START, INDEX_END, build_index_block(repos, meta))
 
     if updated != readme:
         README.write_text(updated, encoding="utf-8")
