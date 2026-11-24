@@ -76,7 +76,7 @@
 ## 🆕 仓库列表（自动同步）
 
 > 由 GitHub Actions 按创建时间倒序自动生成，每日更新一次；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
-> 最后更新：2026-11-24 02:23 UTC
+> 最后更新：2026-11-24 09:31 UTC
 
 - [iptv-tvbox-lowend-android](https://github.com/zseagate/iptv-tvbox-lowend-android) 🆕 — Android 4.4 老盒子 IPTV/TVBox 兼容方案：本地直播绕开旧 TLS + MacCMS 点播，含脚本与排障（不含节目源） · 2026-11-22
 - [free-api-gateway](https://github.com/zseagate/free-api-gateway) 🆕 — Local new-api gateway aggregating Numes/OpenRouter/Groq free tiers for OpenCode · 2026-11-21
