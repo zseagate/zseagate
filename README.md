@@ -17,12 +17,6 @@
 ## 📂 项目索引
 
 <!-- INDEX:START -->
-### 🆕 新仓库（待归类）
-| 项目 | 说明 |
-|---|---|
-| [free-api-gateway](https://github.com/zseagate/free-api-gateway) | Local new-api gateway aggregating Numes/OpenRouter/Groq free tiers for OpenCode |
-| [disk-cleanup](https://github.com/zseagate/disk-cleanup) | Weekly cache cleanup + optional cache offload for small /home partitions |
-
 ### 🖥️ 旧物改造 / 系统精简
 | 项目 | 说明 |
 |---|---|
@@ -41,6 +35,7 @@
 |---|---|
 | [green-future-ventoy-usb](https://github.com/zseagate/green-future-ventoy-usb) | Ventoy 启动 U 盘模板：架构、中文菜单、校验脚本 |
 | [usb-bench](https://github.com/zseagate/usb-bench) | U 盘性能实测（fio）与便携 Linux 基准 |
+| [disk-cleanup](https://github.com/zseagate/disk-cleanup) | Weekly cache cleanup + optional cache offload for small /home partitions |
 
 ### 🌐 网络与路由
 | 项目 | 说明 |
@@ -63,6 +58,7 @@
 |---|---|
 | [ai-video-lab](https://github.com/zseagate/ai-video-lab) | 本地 AI 视频流水线 + 开放课程套件 |
 | [chanzhi-to-joomla](https://github.com/zseagate/chanzhi-to-joomla) | 蝉知 CMS → Joomla 5 迁移工具链 |
+| [free-api-gateway](https://github.com/zseagate/free-api-gateway) | Local new-api gateway aggregating Numes/OpenRouter/Groq free tiers for OpenCode |
 <!-- INDEX:END -->
 
 ## 📖 完整教程在公众号
@@ -80,7 +76,7 @@
 ## 🆕 仓库列表（自动同步）
 
 > 由 GitHub Actions 按创建时间倒序自动生成，每日更新一次；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
-> 最后更新：2026-11-24 02:19 UTC
+> 最后更新：2026-11-24 02:23 UTC
 
 - [iptv-tvbox-lowend-android](https://github.com/zseagate/iptv-tvbox-lowend-android) 🆕 — Android 4.4 老盒子 IPTV/TVBox 兼容方案：本地直播绕开旧 TLS + MacCMS 点播，含脚本与排障（不含节目源） · 2026-11-22
 - [free-api-gateway](https://github.com/zseagate/free-api-gateway) 🆕 — Local new-api gateway aggregating Numes/OpenRouter/Groq free tiers for OpenCode · 2026-11-21
