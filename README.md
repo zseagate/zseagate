@@ -17,6 +17,11 @@
 ## 📂 项目索引
 
 <!-- INDEX:START -->
+### 🆕 新仓库（待归类）
+| 项目 | 说明 |
+|---|---|
+| [iptv-tvbox-highend-android](https://github.com/zseagate/iptv-tvbox-highend-android) | 高配安卓机顶盒(Android 7+/9, 如创维 E900V22C) IPTV 一键方案: TiviMate 直播(盒内本地列表+分组规则) + TVBox4.1+ 点播(MacCMS 源), 定… |
+
 ### 🖥️ 旧物改造 / 系统精简
 | 项目 | 说明 |
 |---|---|
@@ -76,9 +81,10 @@
 ## 🆕 仓库列表（自动同步）
 
 > 由 GitHub Actions 按创建时间倒序自动生成，每日更新一次；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
-> 最后更新：2026-11-24 09:31 UTC
+> 最后更新：2026-11-25 08:02 UTC
 
-- [iptv-tvbox-lowend-android](https://github.com/zseagate/iptv-tvbox-lowend-android) 🆕 — Android 4.4 老盒子 IPTV/TVBox 兼容方案：本地直播绕开旧 TLS + MacCMS 点播，含脚本与排障（不含节目源） · 2026-11-22
+- [iptv-tvbox-highend-android](https://github.com/zseagate/iptv-tvbox-highend-android) 🆕 — 高配安卓机顶盒(Android 7+/9, 如创维 E900V22C) IPTV 一键方案: TiviMate 直播(盒内本地列表+分组规则) + TVBox4.1+ 点播(MacCMS 源), 定… · 2026-11-24
+- [iptv-tvbox-lowend-android](https://github.com/zseagate/iptv-tvbox-lowend-android) 🆕 — 低版本安卓盒子(Android 4.4/API 19) IPTV 方案: TVBox4.1+ 点播(MacCMS) + TVBox Q版本地文件直播, 系统 TLS/兼容性诊断脚本 · 2026-11-22
 - [free-api-gateway](https://github.com/zseagate/free-api-gateway) 🆕 — Local new-api gateway aggregating Numes/OpenRouter/Groq free tiers for OpenCode · 2026-11-21
 - [disk-cleanup](https://github.com/zseagate/disk-cleanup) 🆕 — Weekly cache cleanup + optional cache offload for small /home partitions · 2026-11-20
 - [usb-bench](https://github.com/zseagate/usb-bench) 🆕 — USB drive benchmark for portable Linux boot drives: batch testing, fio-based, JSON/Markdown reports… · 2026-11-03
