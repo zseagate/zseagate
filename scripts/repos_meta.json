@@ -12,6 +12,8 @@
         "unt413a-tv-optimization",
         "hypnotix",
         "iptv-tvbox-lowend-android",
+        "teclast-p80x-optimization",
+        "iptv-tvbox-highend-android",
         "fcitx5-custom-phrase",
         "linux-system-health-check"
       ]
@@ -60,6 +62,8 @@
     "unt413a-tv-optimization": "运营商机顶盒 debloat + IPTV",
     "hypnotix": "Hypnotix TV 配置与订阅源整理",
     "iptv-tvbox-lowend-android": "Android 4.4 老盒子 IPTV/TVBox 兼容方案：本地直播绕开旧 TLS + MacCMS 点播，含脚本与排障（不含节目源）",
+    "teclast-p80x-optimization": "台电 P80X 平板优化 + IPTV：本地直播(FongMi) + TVBox 点播 + WiFi 诊断",
+    "iptv-tvbox-highend-android": "高配安卓盒子(Android 7+/9) IPTV 一键方案：TiviMate 直播 + TVBox 点播(MacCMS)，定时刷新",
     "fcitx5-custom-phrase": "fcitx5 自定义词组脚本（附踩坑）",
     "linux-system-health-check": "Linux 系统状态自检脚本",
     "green-future-ventoy-usb": "Ventoy 启动 U 盘模板：架构、中文菜单、校验脚本",
