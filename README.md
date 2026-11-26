@@ -17,11 +17,6 @@
 ## 📂 项目索引
 
 <!-- INDEX:START -->
-### 🆕 新仓库（待归类）
-| 项目 | 说明 |
-|---|---|
-| [iptv-tvbox-highend-android](https://github.com/zseagate/iptv-tvbox-highend-android) | 高配安卓机顶盒(Android 7+/9, 如创维 E900V22C) IPTV 一键方案: TiviMate 直播(盒内本地列表+分组规则) + TVBox4.1+ 点播(MacCMS 源), 定… |
-
 ### 🖥️ 旧物改造 / 系统精简
 | 项目 | 说明 |
 |---|---|
@@ -32,6 +27,7 @@
 | [jmgo-p2-slim](https://github.com/zseagate/jmgo-p2-slim) | 坚果 P2 投影仪精简：只禁用不卸载，全程可恢复 |
 | [unt413a-tv-optimization](https://github.com/zseagate/unt413a-tv-optimization) | 运营商机顶盒 debloat + IPTV |
 | [iptv-tvbox-lowend-android](https://github.com/zseagate/iptv-tvbox-lowend-android) | Android 4.4 老盒子 IPTV/TVBox 兼容方案：本地直播绕开旧 TLS + MacCMS 点播，含脚本与排障（不含节目源） |
+| [iptv-tvbox-highend-android](https://github.com/zseagate/iptv-tvbox-highend-android) | 高配安卓机顶盒(Android 7+/9, 如创维 E900V22C) IPTV 一键方案: TiviMate 直播(盒内本地列表+分组规则) + TVBox4.1+ 点播(MacCMS 源), 定时刷新 |
 | [fcitx5-custom-phrase](https://github.com/zseagate/fcitx5-custom-phrase) | fcitx5 自定义词组脚本（附踩坑） |
 | [linux-system-health-check](https://github.com/zseagate/linux-system-health-check) | Linux 系统状态自检脚本 |
 
