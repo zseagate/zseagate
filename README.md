@@ -78,7 +78,7 @@
 ## 🆕 仓库列表（自动同步）
 
 > 由 GitHub Actions 按创建时间倒序自动生成，每日更新一次；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
-> 最后更新：2026-11-26 12:53 UTC
+> 最后更新：2026-11-27 07:54 UTC
 
 - [teclast-p80x-optimization](https://github.com/zseagate/teclast-p80x-optimization) 🆕 — Teclast P80X (G5K6) tablet optimization & IPTV deployment: live(FongMi file://) + VOD(TVBox4.1+), l… · 2026-11-25
 - [iptv-tvbox-highend-android](https://github.com/zseagate/iptv-tvbox-highend-android) 🆕 — 高配安卓机顶盒(Android 7+/9, 如创维 E900V22C) IPTV 一键方案: TiviMate 直播(盒内本地列表+分组规则) + TVBox4.1+ 点播(MacCMS 源), 定… · 2026-11-24
@@ -91,7 +91,7 @@
 - [bookmark-sync-notes](https://github.com/zseagate/bookmark-sync-notes) 🆕 — Edge / Firefox 书签双向增量合并：脚本 + 踩坑复盘 · 2026-11-01
 - [dsh-shell-0xC0000135-fix](https://github.com/zseagate/dsh-shell-0xC0000135-fix) 🆕 — 修复 DSH 无头 shell：pwsh 与 python 退出码 0xC0000135（STATUS_DLL_NOT_FOUND）排障全记录与 PATH 修复脚本 · 2026-10-30
 - [ai-video-lab](https://github.com/zseagate/ai-video-lab) 🆕 — 本地优先的 AI 视频生产实验室 + 开源课程工具包：剧本 → 分镜 → 配音配乐 → 合成 → 质检 的可复现流水线，自带管理台，支持十层提示词与跨镜头一致性锚点，引擎可插拔（本地 Wan / 云… · 2026-10-29
-- [360t7-mesh](https://github.com/zseagate/360t7-mesh) 🆕 — 两台 360T7 组 802.11s Mesh 无线回程 + 同 SSID 无缝漫游的实战记录（含 frequency=5745.0 浮点坑）；进阶部分用 mihomo（Clash.Meta）TUN… · 2026-10-27
+- [360t7-mesh](https://github.com/zseagate/360t7-mesh) — 两台 360T7 组 802.11s Mesh 无线回程 + 同 SSID 无缝漫游的实战记录（含 frequency=5745.0 浮点坑）；进阶部分用 mihomo（Clash.Meta）TUN… · 2026-10-27
 - [green-future-ventoy-usb](https://github.com/zseagate/green-future-ventoy-usb) — Ventoy 启动 U 盘制作模板：架构、中文菜单与操作说明 · 2026-10-22
 - [jmgo-p2-slim](https://github.com/zseagate/jmgo-p2-slim) — 坚果 JmGO P2 (Android 4.4.4) 投影仪精简实战：只禁用不卸载、存储审计、TVBox 直播源配置，全程可恢复 · 2026-10-22
 - [mint-lite](https://github.com/zseagate/mint-lite) — 中文精简 Linux Mint Xfce live ISO 构建流水线（rootless，22.3 64 位 + 19.3 32 位） · 2026-10-19
