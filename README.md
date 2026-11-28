@@ -78,7 +78,7 @@
 ## 🆕 仓库列表（自动同步）
 
 > 由 GitHub Actions 按创建时间倒序自动生成，每日更新一次；**🆕** = 30 天内新建的仓库。请勿手动编辑本段，改动会被覆盖。
-> 最后更新：2026-11-27 07:54 UTC
+> 最后更新：2026-11-28 07:24 UTC
 
 - [teclast-p80x-optimization](https://github.com/zseagate/teclast-p80x-optimization) 🆕 — Teclast P80X (G5K6) tablet optimization & IPTV deployment: live(FongMi file://) + VOD(TVBox4.1+), l… · 2026-11-25
 - [iptv-tvbox-highend-android](https://github.com/zseagate/iptv-tvbox-highend-android) 🆕 — 高配安卓机顶盒(Android 7+/9, 如创维 E900V22C) IPTV 一键方案: TiviMate 直播(盒内本地列表+分组规则) + TVBox4.1+ 点播(MacCMS 源), 定… · 2026-11-24
